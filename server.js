@@ -13,7 +13,7 @@ const app = express();
 
 const allowedOrigins = [
   // "http://localhost:3000",
-  "https://ai-dermatologist-frontend-iota.vercel.app/" // ✅ Updated to allow frontend access
+  "https://ai-dermatologist-frontend-iota.vercel.app" // ✅ Updated to allow frontend access
 ];
 
 
