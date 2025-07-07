@@ -12,9 +12,8 @@ connectDB();
 const app = express();
 
 const allowedOrigins = [
-  "http://localhost:3000",
-  "http://10.0.2.2:3000", // ✅ Allow Android Emulator to access backend
-  "http://192.168.100.105:3000", // ✅ Updated to match your current local IP
+  // "http://localhost:3000",
+  "https://ai-dermatologist-frontend-iota.vercel.app/" // ✅ Updated to allow frontend access
 ];
 
 

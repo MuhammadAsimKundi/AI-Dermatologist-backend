@@ -32,7 +32,7 @@ const uploadDetectionImage = async (req, res) => {
 
       console.log("🚀 Sending image to ML model…");
       const mlRes = await axios.post(
-        process.env.ML_API_URL || "https://web-production-b5823.up.railway.app/predict",
+        process.env.ML_API_URL || "https://web-production-7ea7.up.railway.app/predict",
         formData,
         { headers: formData.getHeaders(), timeout: 60000 }
       );
